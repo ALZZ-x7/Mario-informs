@@ -1,0 +1,64 @@
+/*establever una cabecera*/
+header {
+    background-color: rgb(192, 53, 18);/*color del fondo de la cabecera*/
+    padding: 1%;/*espacio interno*/
+    text-align: center;/*alineacion del texto*/
+    border-top: 11px solid red;/*color y ancho del borde superior*/
+    border-bottom: 11px solid red;/*colory ancho del borde inferior*/
+    color: black;/*color del texto*/
+}
+
+.imagen-incline{
+    width: 100px;/*ancho de la imagen*/
+     height: auto; /*alto de la imagen que se adapta a lo ancho*/
+     float: right; /*ubicacion de la imagen*/
+    display: incline; /*se muestra en la misma linea que el texto*/
+    margin-right: 10px; /*margenes dentro de ls cabecera*/
+    margin-top: 5px;/*margen dentro de la cabecera*/
+}
+
+.navbar ul{
+    background-color: brown;/*color de fondo*/
+    list-style: none;/*elimina los marcadores de la lista*/
+    display: flex;/*crea una barra o contenedor que permite a sus*/
+    justify-content: flex-start;/*los botones distribuyende */
+    padding: 0; /*espacio interno*/
+    margin: 0;/*margen entre la barra nav y header*/
+
+}
+
+.btn-nav{
+    background-color: rgb(173, 75, 18);/*color del fondo del boton*/
+    color: black ;/*color del texto*/
+    border: 2px solid grey;/*elimina el borde q estaba predeterminadoen los botones*/
+    padding: 10px 20px;/*espacio entre botones*/
+    font-size: 16px;/*tamaño de fuente*/
+    cursor: pointer;/*cambia el cursor a una mano cuando pasa arriba del boton*/
+
+}
+/*estilo para cuando se pasa el cursosr por encima del boton*/
+.btn-nav:hover{
+    background-color: brown;/*color del fondo*/
+}
+
+.contenedor {
+    display: flex;
+    width: 100vw;
+}
+
+.articulo {
+    background-color: rgb(255, 0, 0);
+    flex: 3;
+    padding: 20px;
+}
+.pie {
+    background-color: rgb(216, 56, 56);
+}
+
+.propaganda {
+    background-color: rgb(199, 81, 34);
+    flex: 1;
+    padding: 20px;
+
+}
+
